@@ -1,0 +1,597 @@
+2023.05.25 14:32:44 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\chris\Documents\Reviewer_App\productreviewapp' for client Visual Studio Code 1.78.2.
+May 25, 2023 2:32:44 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+May 25, 2023 2:32:44 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+May 25, 2023 2:32:44 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+May 25, 2023 2:32:44 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\chris\Documents\Reviewer_App\productreviewapp\.metals\metals (H2 2.1)
+May 25, 2023 2:32:44 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+May 25, 2023 2:32:44 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.012s)
+May 25, 2023 2:32:44 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+May 25, 2023 2:32:44 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+May 25, 2023 2:32:44 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+May 25, 2023 2:32:44 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+May 25, 2023 2:32:44 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+May 25, 2023 2:32:44 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+May 25, 2023 2:32:44 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.035s)
+2023.05.25 14:32:44 INFO  time: initialize in 0.4s
+2023.05.25 14:32:45 WARN  Build server is not auto-connectable.
+2023.05.25 14:32:53 INFO  running 'A:\Program Files\Java\jdk-12.0.2\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\chris\AppData\Local\Temp\metals523588157189273553\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.05.25 14:32:55 INFO  [info] welcome to sbt 1.7.2 (Oracle Corporation Java 12.0.2)
+2023.05.25 14:32:56 INFO  [info] loading settings for project productreviewapp-build-build-build from metals.sbt ...
+2023.05.25 14:32:56 INFO  [info] loading project definition from C:\Users\chris\Documents\Reviewer_App\productreviewapp\project\project\project
+2023.05.25 14:32:59 INFO  [info] loading settings for project productreviewapp-build-build from metals.sbt ...
+2023.05.25 14:32:59 INFO  [info] loading project definition from C:\Users\chris\Documents\Reviewer_App\productreviewapp\project\project
+May 25, 2023 2:33:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.05.25 14:33:01 INFO  [success] Generated .bloop\productreviewapp-build-build.json
+2023.05.25 14:33:01 INFO  [success] Total time: 2 s, completed May 25, 2023, 2:33:01 PM
+2023.05.25 14:33:01 INFO  [info] loading settings for project productreviewapp-build from metals.sbt,plugins.sbt ...
+2023.05.25 14:33:01 INFO  [info] loading project definition from C:\Users\chris\Documents\Reviewer_App\productreviewapp\project
+2023.05.25 14:33:06 INFO  [success] Generated .bloop\productreviewapp-build.json
+2023.05.25 14:33:06 INFO  [success] Total time: 4 s, completed May 25, 2023, 2:33:06 PM
+2023.05.25 14:33:08 INFO  [info] loading settings for project root from build.sbt ...
+2023.05.25 14:33:08 INFO  [info]   __              __
+2023.05.25 14:33:08 INFO  [info]   \ \     ____   / /____ _ __  __
+2023.05.25 14:33:08 INFO  [info]    \ \   / __ \ / // __ `// / / /
+2023.05.25 14:33:08 INFO  [info]    / /  / /_/ // // /_/ // /_/ /
+2023.05.25 14:33:08 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /
+2023.05.25 14:33:08 INFO  [info]       /_/               /____/
+2023.05.25 14:33:08 INFO  [info] 
+2023.05.25 14:33:08 INFO  [info] Version 2.8.19 running Java 12.0.2
+2023.05.25 14:33:08 INFO  [info] 
+2023.05.25 14:33:08 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:
+2023.05.25 14:33:08 INFO  [info] https://www.playframework.com/sponsors
+2023.05.25 14:33:08 INFO  [info] 
+2023.05.25 14:33:08 INFO  [info] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2023.05.25 14:33:08 INFO  [info]   Java version is 12. Play supports only 8, 11 and, experimentally, 17.
+2023.05.25 14:33:08 INFO  [info] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2023.05.25 14:33:08 INFO  [info] 
+2023.05.25 14:33:10 WARN  no build target for: C:\Users\chris\Documents\Reviewer_App\productreviewapp\app\controllers\HomeController.java
+2023.05.25 14:33:10 INFO  [success] Generated .bloop\root.json
+2023.05.25 14:33:10 INFO  [success] Generated .bloop\root-test.json
+2023.05.25 14:33:10 INFO  [success] Total time: 2 s, completed May 25, 2023, 2:33:11 PM
+2023.05.25 14:33:11 INFO  time: ran 'sbt bloopInstall' in 17s
+2023.05.25 14:33:11 INFO  Attempting to connect to the build server...
+2023.05.25 14:33:11 INFO  Setting up current java home A:\Program Files\Java\jdk-12.0.2 in C:\Users\chris\.bloop\bloop.json
+May 25, 2023 2:33:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+2023.05.25 14:33:11 ERROR text document: file:///C:/Users/chris/Documents/Reviewer_App/productreviewapp/app/controllers/HomeController.java
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:///C:/Users/chris/Documents/Reviewer_App/productreviewapp/app/controllers/HomeController.java
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:229)
+	at java.nio.file.Path.resolve(Path.java:515)
+	at scala.meta.io.AbsolutePath.resolve(AbsolutePath.scala:43)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$2(ImplementationProvider.scala:86)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1895)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1(ImplementationProvider.scala:80)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1$adapted(ImplementationProvider.scala:79)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.implementation.ImplementationProvider.computeInheritance(ImplementationProvider.scala:79)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$onChange$1(ImplementationProvider.scala:69)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1908)
+	at scala.meta.internal.implementation.ImplementationProvider.onChange(ImplementationProvider.scala:69)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1(SemanticdbIndexer.scala:85)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1$adapted(SemanticdbIndexer.scala:85)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:85)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:96)
+	at java.util.HashMap.compute(HashMap.java:1228)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2692)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$2(MetalsLspService.scala:1780)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$1(MetalsLspService.scala:1778)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:835)
+
+2023.05.25 14:33:12 ERROR text document: file:///C:/Users/chris/Documents/Reviewer_App/productreviewapp/app/controllers/HomeController.java
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:///C:/Users/chris/Documents/Reviewer_App/productreviewapp/app/controllers/HomeController.java
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:229)
+	at java.nio.file.Path.resolve(Path.java:515)
+	at scala.meta.io.AbsolutePath.resolve(AbsolutePath.scala:43)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$2(ImplementationProvider.scala:86)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1895)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1(ImplementationProvider.scala:80)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1$adapted(ImplementationProvider.scala:79)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.implementation.ImplementationProvider.computeInheritance(ImplementationProvider.scala:79)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$onChange$1(ImplementationProvider.scala:69)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1908)
+	at scala.meta.internal.implementation.ImplementationProvider.onChange(ImplementationProvider.scala:69)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1(SemanticdbIndexer.scala:85)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1$adapted(SemanticdbIndexer.scala:85)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:85)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:96)
+	at java.util.HashMap.compute(HashMap.java:1228)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2692)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$2(MetalsLspService.scala:1780)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$1(MetalsLspService.scala:1778)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:835)
+
+2023.05.25 14:33:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\chris\Documents\Reviewer_App\productreviewapp\.metals\bsp.trace.json or C:\Users\chris\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.25 14:33:18 INFO  Attempting to connect to the build server...
+2023.05.25 14:33:18 INFO  Bloop uses A:\Program Files\Java\jdk-12.0.2 defined at C:\Users\chris\.bloop\bloop.json
+2023.05.25 14:33:18 INFO  Attempting to connect to the build server...
+2023.05.25 14:33:18 INFO  Bloop uses A:\Program Files\Java\jdk-12.0.2 defined at C:\Users\chris\.bloop\bloop.json
+2023.05.25 14:33:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\chris\Documents\Reviewer_App\productreviewapp\project\.metals\bsp.trace.json or C:\Users\chris\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.25 14:33:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\chris\Documents\Reviewer_App\productreviewapp\project\project\.metals\bsp.trace.json or C:\Users\chris\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.25 14:33:18 INFO  time: Connected to build server in 8.57s
+2023.05.25 14:33:18 INFO  Connected to Build server: Bloop v1.5.6
+2023.05.25 14:33:19 INFO  time: Imported build in 0.12s
+2023.05.25 14:33:27 INFO  time: indexed workspace in 7.23s
+2023.05.25 14:34:56 INFO  compiling root (6 scala sources and 3 java sources)
+2023.05.25 14:35:05 INFO  compiling root-test (1 java source)
+2023.05.25 14:35:05 INFO  time: compiled root in 9.55s
+2023.05.25 14:35:05 INFO  time: compiled root-test in 0.54s
+May 25, 2023 2:36:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 86
+2023.05.25 14:37:01 WARN  Using indexes to guess the definition of index
+2023.05.25 14:37:01 WARN  Using indexes to guess the definition of index
+2023.05.25 14:41:10 INFO  compiling root (2 java sources)
+2023.05.25 14:41:10 INFO  time: compiled root in 0.34s
+2023.05.25 14:41:13 INFO  compiling root (2 java sources)
+2023.05.25 14:41:13 INFO  time: compiled root in 0.31s
+2023.05.25 14:46:51 INFO  compiling root (1 java source)
+2023.05.25 14:46:51 INFO  time: compiled root in 0.53s
+May 25, 2023 2:47:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 388
+2023.05.25 14:50:41 INFO  Shutting down server
+2023.05.25 14:50:41 INFO  shutting down Metals
+2023.05.25 14:50:41 INFO  Shut down connection with build server.
+2023.05.25 14:50:41 INFO  Shut down connection with build server.
+2023.05.25 14:50:41 INFO  Shut down connection with build server.
+2023.05.25 14:50:41 INFO  Exiting server
+2023.05.25 14:50:49 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\chris\Documents\Reviewer_App\productreviewapp' for client Visual Studio Code 1.78.2.
+May 25, 2023 2:50:49 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+May 25, 2023 2:50:49 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+May 25, 2023 2:50:49 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+May 25, 2023 2:50:49 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\chris\Documents\Reviewer_App\productreviewapp\.metals\metals (H2 2.1)
+May 25, 2023 2:50:49 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.015s)
+May 25, 2023 2:50:49 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+May 25, 2023 2:50:49 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.05.25 14:50:49 INFO  time: initialize in 0.5s
+2023.05.25 14:50:50 INFO  Attempting to connect to the build server...
+2023.05.25 14:50:50 INFO  Bloop uses A:\Program Files\Java\jdk-12.0.2 defined at C:\Users\chris\.bloop\bloop.json
+2023.05.25 14:50:51 INFO  skipping build import with status 'Installed'
+2023.05.25 14:50:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\chris\Documents\Reviewer_App\productreviewapp\.metals\bsp.trace.json or C:\Users\chris\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.25 14:50:50 INFO  Attempting to connect to the build server...
+2023.05.25 14:50:50 INFO  Bloop uses A:\Program Files\Java\jdk-12.0.2 defined at C:\Users\chris\.bloop\bloop.json
+2023.05.25 14:50:50 INFO  Attempting to connect to the build server...
+2023.05.25 14:50:50 INFO  Bloop uses A:\Program Files\Java\jdk-12.0.2 defined at C:\Users\chris\.bloop\bloop.json
+2023.05.25 14:50:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\chris\Documents\Reviewer_App\productreviewapp\project\project\.metals\bsp.trace.json or C:\Users\chris\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.25 14:50:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\chris\Documents\Reviewer_App\productreviewapp\project\.metals\bsp.trace.json or C:\Users\chris\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.25 14:50:50 INFO  time: Connected to build server in 0.3s
+2023.05.25 14:50:50 INFO  Connected to Build server: Bloop v1.5.6
+2023.05.25 14:50:51 ERROR text document: file:///C:/Users/chris/Documents/Reviewer_App/productreviewapp/app/controllers/HomeController.java
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:///C:/Users/chris/Documents/Reviewer_App/productreviewapp/app/controllers/HomeController.java
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:229)
+	at java.nio.file.Path.resolve(Path.java:515)
+	at scala.meta.io.AbsolutePath.resolve(AbsolutePath.scala:43)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$2(ImplementationProvider.scala:86)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1895)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1(ImplementationProvider.scala:80)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$computeInheritance$1$adapted(ImplementationProvider.scala:79)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.implementation.ImplementationProvider.computeInheritance(ImplementationProvider.scala:79)
+	at scala.meta.internal.implementation.ImplementationProvider.$anonfun$onChange$1(ImplementationProvider.scala:69)
+	at java.util.concurrent.ConcurrentHashMap.compute(ConcurrentHashMap.java:1908)
+	at scala.meta.internal.implementation.ImplementationProvider.onChange(ImplementationProvider.scala:69)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1(SemanticdbIndexer.scala:85)
+	at scala.meta.internal.metals.SemanticdbIndexer.$anonfun$onChange$1$adapted(SemanticdbIndexer.scala:85)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:85)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:81)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:96)
+	at java.util.HashMap.compute(HashMap.java:1228)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2692)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$2(MetalsLspService.scala:1780)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$1(MetalsLspService.scala:1778)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:835)
+
+2023.05.25 14:50:56 INFO  time: indexed workspace in 5.11s
+2023.05.25 14:52:23 INFO  compiling root (1 java source)
+2023.05.25 14:52:23 INFO  time: compiled root in 0.41s
+2023.05.25 14:56:32 INFO  time: code lens generation in 1.96s
+2023.05.25 14:58:32 INFO  running 'A:\Program Files\Java\jdk-12.0.2\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\chris\AppData\Local\Temp\metals2404322895201208337\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.05.25 14:58:33 INFO  [info] welcome to sbt 1.7.2 (Oracle Corporation Java 12.0.2)
+2023.05.25 14:58:33 INFO  [info] loading settings for project productreviewapp-build-build-build from metals.sbt ...
+2023.05.25 14:58:33 INFO  [info] loading project definition from C:\Users\chris\Documents\Reviewer_App\productreviewapp\project\project\project
+2023.05.25 14:58:34 INFO  [info] loading settings for project productreviewapp-build-build from metals.sbt ...
+2023.05.25 14:58:34 INFO  [info] loading project definition from C:\Users\chris\Documents\Reviewer_App\productreviewapp\project\project
+2023.05.25 14:58:36 INFO  [success] Generated .bloop\productreviewapp-build-build.json
+2023.05.25 14:58:36 INFO  [success] Total time: 2 s, completed May 25, 2023, 2:58:36 PM
+2023.05.25 14:58:36 INFO  [info] loading settings for project productreviewapp-build from metals.sbt,plugins.sbt ...
+2023.05.25 14:58:36 INFO  [info] loading project definition from C:\Users\chris\Documents\Reviewer_App\productreviewapp\project
+2023.05.25 14:58:37 INFO  [success] Generated .bloop\productreviewapp-build.json
+2023.05.25 14:58:37 INFO  [success] Total time: 1 s, completed May 25, 2023, 2:58:37 PM
+2023.05.25 14:58:39 INFO  [info] loading settings for project root from build.sbt ...
+2023.05.25 14:58:39 INFO  [info]   __              __
+2023.05.25 14:58:39 INFO  [info]   \ \     ____   / /____ _ __  __
+2023.05.25 14:58:39 INFO  [info]    \ \   / __ \ / // __ `// / / /
+2023.05.25 14:58:39 INFO  [info]    / /  / /_/ // // /_/ // /_/ /
+2023.05.25 14:58:39 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /
+2023.05.25 14:58:39 INFO  [info]       /_/               /____/
+2023.05.25 14:58:39 INFO  [info] 
+2023.05.25 14:58:39 INFO  [info] Version 2.8.19 running Java 12.0.2
+2023.05.25 14:58:39 INFO  [info] 
+2023.05.25 14:58:39 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:
+2023.05.25 14:58:39 INFO  [info] https://www.playframework.com/sponsors
+2023.05.25 14:58:39 INFO  [info] 
+2023.05.25 14:58:39 INFO  [info] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2023.05.25 14:58:39 INFO  [info]   Java version is 12. Play supports only 8, 11 and, experimentally, 17.
+2023.05.25 14:58:39 INFO  [info] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2023.05.25 14:58:39 INFO  [info] 
+2023.05.25 14:58:41 INFO  [success] Generated .bloop\root.json
+2023.05.25 14:58:41 INFO  [success] Generated .bloop\root-test.json
+2023.05.25 14:58:41 INFO  [success] Total time: 1 s, completed May 25, 2023, 2:58:41 PM
+2023.05.25 14:58:41 INFO  time: ran 'sbt bloopInstall' in 9.04s
+2023.05.25 14:58:41 INFO  Disconnecting from Bloop session...
+2023.05.25 14:58:41 INFO  Shut down connection with build server.
+2023.05.25 14:58:41 INFO  Shut down connection with build server.
+2023.05.25 14:58:41 INFO  Shut down connection with build server.
+2023.05.25 14:58:41 INFO  Attempting to connect to the build server...
+2023.05.25 14:58:41 INFO  Bloop uses A:\Program Files\Java\jdk-12.0.2 defined at C:\Users\chris\.bloop\bloop.json
+2023.05.25 14:58:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\chris\Documents\Reviewer_App\productreviewapp\.metals\bsp.trace.json or C:\Users\chris\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.25 14:58:41 INFO  Attempting to connect to the build server...
+2023.05.25 14:58:41 INFO  Bloop uses A:\Program Files\Java\jdk-12.0.2 defined at C:\Users\chris\.bloop\bloop.json
+2023.05.25 14:58:41 INFO  Attempting to connect to the build server...
+2023.05.25 14:58:41 INFO  Bloop uses A:\Program Files\Java\jdk-12.0.2 defined at C:\Users\chris\.bloop\bloop.json
+2023.05.25 14:58:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\chris\Documents\Reviewer_App\productreviewapp\project\project\.metals\bsp.trace.json or C:\Users\chris\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.25 14:58:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\chris\Documents\Reviewer_App\productreviewapp\project\.metals\bsp.trace.json or C:\Users\chris\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.25 14:58:41 INFO  time: Connected to build server in 79ms
+2023.05.25 14:58:41 INFO  Connected to Build server: Bloop v1.5.6
+2023.05.25 14:58:43 INFO  time: indexed workspace in 2.06s
+2023.05.25 14:58:43 INFO  compiling root (6 scala sources and 3 java sources)
+2023.05.25 14:58:44 INFO  time: compiled root in 1.46s
+2023.05.25 14:58:44 INFO  compiling root-test (1 java source)
+2023.05.25 14:58:44 INFO  time: compiled root-test in 0.4s
+2023.05.25 15:01:16 INFO  compiling root (2 java sources)
+2023.05.25 15:01:16 INFO  time: compiled root in 0.24s
+2023.05.25 15:01:18 INFO  compiling root (2 java sources)
+2023.05.25 15:01:18 INFO  time: compiled root in 0.21s
+2023.05.25 15:06:31 INFO  compiling root (1 java source)
+2023.05.25 15:06:31 INFO  Shutting down server
+2023.05.25 15:06:31 INFO  shutting down Metals
+2023.05.25 15:06:31 INFO  Shut down connection with build server.
+2023.05.25 15:06:31 INFO  Shut down connection with build server.
+2023.05.25 15:06:31 INFO  Shut down connection with build server.
+May 25, 2023 3:06:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:348)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:348)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:285)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:121)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:114)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SocketChannelImpl.endWrite(SocketChannelImpl.java:447)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:469)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:114)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 19 more
+
+2023.05.25 15:06:31 INFO  Cancelling compilation on Bloop server
+2023.05.25 15:06:31 INFO  Exiting server
+2023.05.25 15:06:46 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\chris\Documents\Reviewer_App\productreviewapp' for client Visual Studio Code 1.78.2.
+May 25, 2023 3:06:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+May 25, 2023 3:06:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+May 25, 2023 3:06:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+May 25, 2023 3:06:47 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\chris\Documents\Reviewer_App\productreviewapp\.metals\metals (H2 2.1)
+May 25, 2023 3:06:47 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.013s)
+May 25, 2023 3:06:47 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+May 25, 2023 3:06:47 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.05.25 15:06:47 INFO  time: initialize in 0.42s
+2023.05.25 15:06:48 INFO  Attempting to connect to the build server...
+2023.05.25 15:06:48 INFO  Bloop uses A:\Program Files\Java\jdk-12.0.2 defined at C:\Users\chris\.bloop\bloop.json
+2023.05.25 15:06:48 INFO  skipping build import with status 'Installed'
+2023.05.25 15:06:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\chris\Documents\Reviewer_App\productreviewapp\.metals\bsp.trace.json or C:\Users\chris\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.25 15:06:48 INFO  Attempting to connect to the build server...
+2023.05.25 15:06:48 INFO  Bloop uses A:\Program Files\Java\jdk-12.0.2 defined at C:\Users\chris\.bloop\bloop.json
+2023.05.25 15:06:48 INFO  Attempting to connect to the build server...
+2023.05.25 15:06:48 INFO  Bloop uses A:\Program Files\Java\jdk-12.0.2 defined at C:\Users\chris\.bloop\bloop.json
+2023.05.25 15:06:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\chris\Documents\Reviewer_App\productreviewapp\project\.metals\bsp.trace.json or C:\Users\chris\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.25 15:06:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\chris\Documents\Reviewer_App\productreviewapp\project\project\.metals\bsp.trace.json or C:\Users\chris\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.25 15:06:48 INFO  time: Connected to build server in 0.2s
+2023.05.25 15:06:48 INFO  Connected to Build server: Bloop v1.5.6
+2023.05.25 15:06:52 INFO  time: indexed workspace in 4.09s
+2023.05.25 15:08:31 INFO  time: code lens generation in 1.94s
+2023.05.25 15:09:50 INFO  running 'A:\Program Files\Java\jdk-12.0.2\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\chris\AppData\Local\Temp\metals9250412604382764584\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.05.25 15:09:51 INFO  sbt thinks that server is already booting because of this exception:
+2023.05.25 15:09:51 ERROR sbt.internal.ServerAlreadyBootingException: java.io.IOException: Could not create lock for \\.\pipe\sbt-load3578416011161014203_lock, error 5
+2023.05.25 15:09:51 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:356)
+2023.05.25 15:09:51 ERROR 	at sbt.internal.BootServerSocket.<init>(BootServerSocket.java:295)
+2023.05.25 15:09:51 ERROR 	at sbt.xMain$.getSocketOrExit(Main.scala:150)
+2023.05.25 15:09:51 ERROR 	at sbt.xMain$.bootServerSocket$lzycompute$1(Main.scala:77)
+2023.05.25 15:09:51 ERROR 	at sbt.xMain$.bootServerSocket$1(Main.scala:77)
+2023.05.25 15:09:51 ERROR 	at sbt.xMain$.withStreams$1(Main.scala:85)
+2023.05.25 15:09:51 ERROR 	at sbt.xMain$.run(Main.scala:121)
+2023.05.25 15:09:51 ERROR 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2023.05.25 15:09:51 ERROR 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2023.05.25 15:09:51 ERROR 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2023.05.25 15:09:51 ERROR 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+2023.05.25 15:09:51 ERROR 	at sbt.internal.XMainConfiguration.run(XMainConfiguration.java:57)
+2023.05.25 15:09:51 ERROR 	at sbt.xMain.run(Main.scala:46)
+2023.05.25 15:09:51 ERROR 	at xsbt.boot.Launch$.$anonfun$run$1(Launch.scala:149)
+2023.05.25 15:09:51 ERROR 	at xsbt.boot.Launch$.withContextLoader(Launch.scala:176)
+2023.05.25 15:09:51 ERROR 	at xsbt.boot.Launch$.run(Launch.scala:149)
+2023.05.25 15:09:51 ERROR 	at xsbt.boot.Launch$.$anonfun$apply$1(Launch.scala:44)
+2023.05.25 15:09:51 ERROR 	at xsbt.boot.Launch$.launch(Launch.scala:159)
+2023.05.25 15:09:51 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:44)
+2023.05.25 15:09:51 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:21)
+2023.05.25 15:09:51 ERROR 	at xsbt.boot.Boot$.runImpl(Boot.scala:78)
+2023.05.25 15:09:51 ERROR 	at xsbt.boot.Boot$.run(Boot.scala:73)
+2023.05.25 15:09:51 ERROR 	at xsbt.boot.Boot$.main(Boot.scala:21)
+2023.05.25 15:09:51 ERROR 	at xsbt.boot.Boot.main(Boot.scala)
+2023.05.25 15:09:51 ERROR Caused by: java.io.IOException: Could not create lock for \\.\pipe\sbt-load3578416011161014203_lock, error 5
+2023.05.25 15:09:51 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:129)
+2023.05.25 15:09:51 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:48)
+2023.05.25 15:09:51 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:350)
+2023.05.25 15:09:51 ERROR 	... 23 more
+2023.05.25 15:09:51 INFO  time: ran 'sbt bloopInstall' in 0.96s
+2023.05.25 15:09:51 ERROR sbt command failed: A:\Program Files\Java\jdk-12.0.2\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\chris\AppData\Local\Temp\metals9250412604382764584\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2023.05.25 15:09:51 INFO  Disconnecting from Bloop session...
+2023.05.25 15:09:51 INFO  Shut down connection with build server.
+2023.05.25 15:09:50 INFO  Shut down connection with build server.
+2023.05.25 15:09:51 INFO  Shut down connection with build server.
+2023.05.25 15:09:51 INFO  Attempting to connect to the build server...
+2023.05.25 15:09:51 INFO  Bloop uses A:\Program Files\Java\jdk-12.0.2 defined at C:\Users\chris\.bloop\bloop.json
+2023.05.25 15:09:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\chris\Documents\Reviewer_App\productreviewapp\.metals\bsp.trace.json or C:\Users\chris\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.25 15:09:51 INFO  Attempting to connect to the build server...
+2023.05.25 15:09:51 INFO  Bloop uses A:\Program Files\Java\jdk-12.0.2 defined at C:\Users\chris\.bloop\bloop.json
+2023.05.25 15:09:51 INFO  Attempting to connect to the build server...
+2023.05.25 15:09:51 INFO  Bloop uses A:\Program Files\Java\jdk-12.0.2 defined at C:\Users\chris\.bloop\bloop.json
+2023.05.25 15:09:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\chris\Documents\Reviewer_App\productreviewapp\project\project\.metals\bsp.trace.json or C:\Users\chris\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.25 15:09:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\chris\Documents\Reviewer_App\productreviewapp\project\.metals\bsp.trace.json or C:\Users\chris\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.25 15:09:51 INFO  time: Connected to build server in 64ms
+2023.05.25 15:09:51 INFO  Connected to Build server: Bloop v1.5.6
+2023.05.25 15:09:54 INFO  time: indexed workspace in 2.2s
+May 25, 2023 3:10:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2Fchris%2FDocuments%2FReviewer_App%2Fproductreviewapp%2Fbuild.sbt:29: error: ) expected but end of file found
+
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2Fchris%2FDocuments%2FReviewer_App%2Fproductreviewapp%2Fbuild.sbt:29: error: ) expected but end of file found
+
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:387)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:391)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensAfterOpen(ScalametaParser.scala:250)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensAfterOpenOr(ScalametaParser.scala:255)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensOnOpenOr(ScalametaParser.scala:246)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$scala$meta$internal$parsers$ScalametaParser$$getArgClause$1(ScalametaParser.scala:2338)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:320)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:366)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$getArgClause(ScalametaParser.scala:2327)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExprRest(ScalametaParser.scala:2239)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$3(ScalametaParser.scala:2159)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2159)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2109)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2092)
+	at scala.meta.internal.parsers.ScalametaParser.argumentExprsOrPrefixExpr(ScalametaParser.scala:2299)
+	at scala.meta.internal.parsers.ScalametaParser.getNextRhs$1(ScalametaParser.scala:1985)
+	at scala.meta.internal.parsers.ScalametaParser.getPostfixOrNextRhs$1(ScalametaParser.scala:2005)
+	at scala.meta.internal.parsers.ScalametaParser.loop$6(ScalametaParser.scala:2049)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2075)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:1960)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1603)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:323)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:367)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1508)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$1.$anonfun$applyOrElse$2(ScalametaParser.scala:4243)
+	at scala.meta.internal.parsers.ScalametaParser.stat(ScalametaParser.scala:4280)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$1.applyOrElse(ScalametaParser.scala:4243)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$1.applyOrElse(ScalametaParser.scala:4236)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:145)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4299)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$13(ScalametaParser.scala:4524)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4524)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:320)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:366)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4479)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4472)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:320)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:366)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4472)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4477)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:127)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:124)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:51)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:46)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:124)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.05.25 15:10:10 INFO  running 'A:\Program Files\Java\jdk-12.0.2\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\chris\AppData\Local\Temp\metals1787044995060153992\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.05.25 15:10:12 INFO  [info] welcome to sbt 1.7.2 (Oracle Corporation Java 12.0.2)
+2023.05.25 15:10:12 INFO  [info] loading settings for project productreviewapp-build-build-build from metals.sbt ...
+2023.05.25 15:10:12 INFO  [info] loading project definition from C:\Users\chris\Documents\Reviewer_App\productreviewapp\project\project\project
+2023.05.25 15:10:13 INFO  [info] loading settings for project productreviewapp-build-build from metals.sbt ...
+2023.05.25 15:10:13 INFO  [info] loading project definition from C:\Users\chris\Documents\Reviewer_App\productreviewapp\project\project
+2023.05.25 15:10:15 INFO  [success] Generated .bloop\productreviewapp-build-build.json
+2023.05.25 15:10:15 INFO  [success] Total time: 2 s, completed May 25, 2023, 3:10:15 PM
+2023.05.25 15:10:15 INFO  [info] loading settings for project productreviewapp-build from metals.sbt,plugins.sbt ...
+2023.05.25 15:10:15 INFO  [info] loading project definition from C:\Users\chris\Documents\Reviewer_App\productreviewapp\project
+2023.05.25 15:10:16 INFO  [success] Generated .bloop\productreviewapp-build.json
+2023.05.25 15:10:16 INFO  [success] Total time: 1 s, completed May 25, 2023, 3:10:16 PM
+2023.05.25 15:10:16 INFO  [error] [C:\Users\chris\Documents\Reviewer_App\productreviewapp\build.sbt]:21: ')' expected but eof found.
+2023.05.25 15:10:16 INFO  [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2023.05.25 15:10:17 INFO  time: ran 'sbt bloopInstall' in 6.2s
+2023.05.25 15:10:17 ERROR sbt command failed: A:\Program Files\Java\jdk-12.0.2\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\chris\AppData\Local\Temp\metals1787044995060153992\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2023.05.25 15:10:17 INFO  Disconnecting from Bloop session...
+2023.05.25 15:10:17 INFO  Shut down connection with build server.
+2023.05.25 15:10:17 INFO  Shut down connection with build server.
+2023.05.25 15:10:17 INFO  Shut down connection with build server.
+2023.05.25 15:10:17 INFO  Attempting to connect to the build server...
+2023.05.25 15:10:17 INFO  Bloop uses A:\Program Files\Java\jdk-12.0.2 defined at C:\Users\chris\.bloop\bloop.json
+2023.05.25 15:10:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\chris\Documents\Reviewer_App\productreviewapp\.metals\bsp.trace.json or C:\Users\chris\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.25 15:10:17 INFO  Attempting to connect to the build server...
+2023.05.25 15:10:17 INFO  Bloop uses A:\Program Files\Java\jdk-12.0.2 defined at C:\Users\chris\.bloop\bloop.json
+2023.05.25 15:10:17 INFO  Attempting to connect to the build server...
+2023.05.25 15:10:17 INFO  Bloop uses A:\Program Files\Java\jdk-12.0.2 defined at C:\Users\chris\.bloop\bloop.json
+2023.05.25 15:10:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\chris\Documents\Reviewer_App\productreviewapp\project\.metals\bsp.trace.json or C:\Users\chris\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.25 15:10:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\chris\Documents\Reviewer_App\productreviewapp\project\project\.metals\bsp.trace.json or C:\Users\chris\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.25 15:10:17 INFO  time: Connected to build server in 64ms
+2023.05.25 15:10:17 INFO  Connected to Build server: Bloop v1.5.6
+2023.05.25 15:10:19 INFO  time: indexed workspace in 1.97s
+2023.05.25 15:10:22 INFO  running 'A:\Program Files\Java\jdk-12.0.2\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\chris\AppData\Local\Temp\metals12541532749643677361\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.05.25 15:10:23 INFO  [info] welcome to sbt 1.7.2 (Oracle Corporation Java 12.0.2)
+2023.05.25 15:10:23 INFO  [info] loading settings for project productreviewapp-build-build-build from metals.sbt ...
+2023.05.25 15:10:23 INFO  [info] loading project definition from C:\Users\chris\Documents\Reviewer_App\productreviewapp\project\project\project
+2023.05.25 15:10:24 INFO  [info] loading settings for project productreviewapp-build-build from metals.sbt ...
+2023.05.25 15:10:24 INFO  [info] loading project definition from C:\Users\chris\Documents\Reviewer_App\productreviewapp\project\project
+2023.05.25 15:10:26 INFO  [success] Generated .bloop\productreviewapp-build-build.json
+2023.05.25 15:10:26 INFO  [success] Total time: 2 s, completed May 25, 2023, 3:10:26 PM
+2023.05.25 15:10:26 INFO  [info] loading settings for project productreviewapp-build from metals.sbt,plugins.sbt ...
+2023.05.25 15:10:26 INFO  [info] loading project definition from C:\Users\chris\Documents\Reviewer_App\productreviewapp\project
+2023.05.25 15:10:27 INFO  [success] Generated .bloop\productreviewapp-build.json
+2023.05.25 15:10:27 INFO  [success] Total time: 1 s, completed May 25, 2023, 3:10:27 PM
+2023.05.25 15:10:27 INFO  [info] loading settings for project root from build.sbt ...
+2023.05.25 15:10:27 INFO  [info]   __              __
+2023.05.25 15:10:27 INFO  [info]   \ \     ____   / /____ _ __  __
+2023.05.25 15:10:27 INFO  [info]    \ \   / __ \ / // __ `// / / /
+2023.05.25 15:10:27 INFO  [info]    / /  / /_/ // // /_/ // /_/ /
+2023.05.25 15:10:27 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /
+2023.05.25 15:10:27 INFO  [info]       /_/               /____/
+2023.05.25 15:10:27 INFO  [info] 
+2023.05.25 15:10:27 INFO  [info] Version 2.8.19 running Java 12.0.2
+2023.05.25 15:10:27 INFO  [info] 
+2023.05.25 15:10:27 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:
+2023.05.25 15:10:27 INFO  [info] https://www.playframework.com/sponsors
+2023.05.25 15:10:27 INFO  [info] 
+2023.05.25 15:10:27 INFO  [info] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2023.05.25 15:10:27 INFO  [info]   Java version is 12. Play supports only 8, 11 and, experimentally, 17.
+2023.05.25 15:10:27 INFO  [info] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2023.05.25 15:10:27 INFO  [info] 
+2023.05.25 15:10:30 INFO  [success] Generated .bloop\root.json
+2023.05.25 15:10:30 INFO  [success] Generated .bloop\root-test.json
+2023.05.25 15:10:30 INFO  [success] Total time: 2 s, completed May 25, 2023, 3:10:30 PM
+2023.05.25 15:10:30 INFO  time: ran 'sbt bloopInstall' in 8.11s
+2023.05.25 15:10:30 INFO  Disconnecting from Bloop session...
+2023.05.25 15:10:30 INFO  Shut down connection with build server.
+2023.05.25 15:10:30 INFO  Shut down connection with build server.
+2023.05.25 15:10:30 INFO  Shut down connection with build server.
+2023.05.25 15:10:30 INFO  Attempting to connect to the build server...
+2023.05.25 15:10:30 INFO  Bloop uses A:\Program Files\Java\jdk-12.0.2 defined at C:\Users\chris\.bloop\bloop.json
+2023.05.25 15:10:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\chris\Documents\Reviewer_App\productreviewapp\.metals\bsp.trace.json or C:\Users\chris\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.25 15:10:30 INFO  Attempting to connect to the build server...
+2023.05.25 15:10:30 INFO  Bloop uses A:\Program Files\Java\jdk-12.0.2 defined at C:\Users\chris\.bloop\bloop.json
+2023.05.25 15:10:30 INFO  Attempting to connect to the build server...
+2023.05.25 15:10:30 INFO  Bloop uses A:\Program Files\Java\jdk-12.0.2 defined at C:\Users\chris\.bloop\bloop.json
+2023.05.25 15:10:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\chris\Documents\Reviewer_App\productreviewapp\project\.metals\bsp.trace.json or C:\Users\chris\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.25 15:10:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\chris\Documents\Reviewer_App\productreviewapp\project\project\.metals\bsp.trace.json or C:\Users\chris\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.25 15:10:30 INFO  time: Connected to build server in 85ms
+2023.05.25 15:10:30 INFO  Connected to Build server: Bloop v1.5.6
+2023.05.25 15:10:32 INFO  time: indexed workspace in 1.98s
+2023.05.25 15:11:49 INFO  skipping build import with status 'Installed'
+2023.05.25 15:13:14 INFO  Shutting down server
+2023.05.25 15:13:14 INFO  shutting down Metals
+2023.05.25 15:13:14 INFO  Shut down connection with build server.
+2023.05.25 15:13:14 INFO  Shut down connection with build server.
+2023.05.25 15:13:14 INFO  Shut down connection with build server.
+2023.05.25 15:13:14 INFO  Exiting server
