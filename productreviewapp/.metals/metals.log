@@ -629,3 +629,6 @@ WARNING: Unmatched cancel notification for request id 2
 2023.05.26 13:59:37 INFO  time: Imported build in 0.19s
 2023.05.26 13:59:38 INFO  time: code lens generation in 6.25s
 2023.05.26 13:59:39 INFO  no build target found for C:\Users\chris\Documents\Reviewer_App\productreviewapp\build.sbt. Using presentation compiler with project's scala-library version: 3.2.2
+2023.05.26 13:59:39 INFO  time: code lens generation in 6.59s
+2023.05.26 13:59:40 INFO  time: code lens generation in 7.56s
+2023.05.26 13:59:43 INFO  time: indexed workspace in 5.28s
